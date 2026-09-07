@@ -1,0 +1,3231 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Linux - 6.18.33.2-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/cc"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/cc"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/cc"
+      - "/usr/local/sbin/cc"
+      - "/usr/local/bin/cc"
+      - "/usr/sbin/cc"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/ratib/itmo/project/build/CMakeFiles/4.2.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/usr/lib/wsl/lib/dlltool"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/dlltool"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/dlltool"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/dlltool"
+      - "/mnt/c/Windows/system32/dlltool"
+      - "/mnt/c/Windows/dlltool"
+      - "/mnt/c/Windows/System32/Wbem/dlltool"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/dlltool"
+      - "/mnt/c/Windows/System32/OpenSSH/dlltool"
+      - "/mnt/c/WINDOWS/system32/dlltool"
+      - "/mnt/c/WINDOWS/dlltool"
+      - "/mnt/c/WINDOWS/System32/Wbem/dlltool"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/dlltool"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/dlltool"
+      - "/mnt/c/Program Files (x86)/dotnet/dlltool"
+      - "/mnt/c/Program Files/dotnet/dlltool"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/dlltool"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/dlltool"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/dlltool"
+      - "/mnt/c/Program Files/Git/cmd/dlltool"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/dlltool"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/dlltool"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/dlltool"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/dlltool"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/dlltool"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/dlltool"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/usr/lib/wsl/lib/tapi"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/tapi"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/tapi"
+      - "/mnt/c/Windows/system32/tapi"
+      - "/mnt/c/Windows/tapi"
+      - "/mnt/c/Windows/System32/Wbem/tapi"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "/mnt/c/Windows/System32/OpenSSH/tapi"
+      - "/mnt/c/WINDOWS/system32/tapi"
+      - "/mnt/c/WINDOWS/tapi"
+      - "/mnt/c/WINDOWS/System32/Wbem/tapi"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/tapi"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/tapi"
+      - "/mnt/c/Program Files (x86)/dotnet/tapi"
+      - "/mnt/c/Program Files/dotnet/tapi"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/tapi"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/tapi"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi"
+      - "/mnt/c/Program Files/Git/cmd/tapi"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/tapi"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/tapi"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/tapi"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-15.2"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15.2"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-15.2"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/usr/sbin/gcc-ar-15.2"
+      - "/sbin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/usr/games/gcc-ar-15.2"
+      - "/usr/local/games/gcc-ar-15.2"
+      - "/usr/lib/wsl/lib/gcc-ar-15.2"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.2"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/gcc-ar-15.2"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/gcc-ar-15.2"
+      - "/mnt/c/Windows/system32/gcc-ar-15.2"
+      - "/mnt/c/Windows/gcc-ar-15.2"
+      - "/mnt/c/Windows/System32/Wbem/gcc-ar-15.2"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "/mnt/c/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/system32/gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ar-15.2"
+      - "/mnt/c/Program Files (x86)/dotnet/gcc-ar-15.2"
+      - "/mnt/c/Program Files/dotnet/gcc-ar-15.2"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/gcc-ar-15.2"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/gcc-ar-15.2"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-15.2"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ar-15.2"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/gcc-ar-15.2"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.2"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/gcc-ar-15.2"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
+      - "/snap/bin/gcc-ar-15.2"
+    found: "/usr/bin/gcc-ar-15"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15.2"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-15.2"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/usr/sbin/gcc-ranlib-15.2"
+      - "/sbin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/usr/games/gcc-ranlib-15.2"
+      - "/usr/local/games/gcc-ranlib-15.2"
+      - "/usr/lib/wsl/lib/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/gcc-ranlib-15.2"
+      - "/mnt/c/Windows/system32/gcc-ranlib-15.2"
+      - "/mnt/c/Windows/gcc-ranlib-15.2"
+      - "/mnt/c/Windows/System32/Wbem/gcc-ranlib-15.2"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "/mnt/c/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/system32/gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files (x86)/dotnet/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/dotnet/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/gcc-ranlib-15.2"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.2"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/gcc-ranlib-15.2"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
+      - "/snap/bin/gcc-ranlib-15.2"
+    found: "/usr/bin/gcc-ranlib-15"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/ratib/itmo/project/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/usr/lib/llvm-21/bin/"
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/lib/llvm-21/bin/llvm-ar-21.1"
+      - "/usr/bin/llvm-ar-21.1"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-21.1"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.1"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/llvm-ar-21.1"
+      - "/usr/local/sbin/llvm-ar-21.1"
+      - "/usr/local/bin/llvm-ar-21.1"
+      - "/usr/sbin/llvm-ar-21.1"
+      - "/sbin/llvm-ar-21.1"
+      - "/bin/llvm-ar-21.1"
+      - "/usr/games/llvm-ar-21.1"
+      - "/usr/local/games/llvm-ar-21.1"
+      - "/usr/lib/wsl/lib/llvm-ar-21.1"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar-21.1"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/llvm-ar-21.1"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/llvm-ar-21.1"
+      - "/mnt/c/Windows/system32/llvm-ar-21.1"
+      - "/mnt/c/Windows/llvm-ar-21.1"
+      - "/mnt/c/Windows/System32/Wbem/llvm-ar-21.1"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21.1"
+      - "/mnt/c/Windows/System32/OpenSSH/llvm-ar-21.1"
+      - "/mnt/c/WINDOWS/system32/llvm-ar-21.1"
+      - "/mnt/c/WINDOWS/llvm-ar-21.1"
+      - "/mnt/c/WINDOWS/System32/Wbem/llvm-ar-21.1"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/llvm-ar-21.1"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/llvm-ar-21.1"
+      - "/mnt/c/Program Files (x86)/dotnet/llvm-ar-21.1"
+      - "/mnt/c/Program Files/dotnet/llvm-ar-21.1"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/llvm-ar-21.1"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/llvm-ar-21.1"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/llvm-ar-21.1"
+      - "/mnt/c/Program Files/Git/cmd/llvm-ar-21.1"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.1"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/llvm-ar-21.1"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/llvm-ar-21.1"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.1"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar-21.1"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/llvm-ar-21.1"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar-21.1"
+      - "/snap/bin/llvm-ar-21.1"
+      - "/usr/lib/llvm-21/bin/llvm-ar-21"
+      - "/usr/bin/llvm-ar-21"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-21"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/llvm-ar-21"
+      - "/usr/local/sbin/llvm-ar-21"
+      - "/usr/local/bin/llvm-ar-21"
+      - "/usr/sbin/llvm-ar-21"
+      - "/sbin/llvm-ar-21"
+      - "/bin/llvm-ar-21"
+      - "/usr/games/llvm-ar-21"
+      - "/usr/local/games/llvm-ar-21"
+      - "/usr/lib/wsl/lib/llvm-ar-21"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar-21"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/llvm-ar-21"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/llvm-ar-21"
+      - "/mnt/c/Windows/system32/llvm-ar-21"
+      - "/mnt/c/Windows/llvm-ar-21"
+      - "/mnt/c/Windows/System32/Wbem/llvm-ar-21"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21"
+      - "/mnt/c/Windows/System32/OpenSSH/llvm-ar-21"
+      - "/mnt/c/WINDOWS/system32/llvm-ar-21"
+      - "/mnt/c/WINDOWS/llvm-ar-21"
+      - "/mnt/c/WINDOWS/System32/Wbem/llvm-ar-21"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/llvm-ar-21"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/llvm-ar-21"
+      - "/mnt/c/Program Files (x86)/dotnet/llvm-ar-21"
+      - "/mnt/c/Program Files/dotnet/llvm-ar-21"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/llvm-ar-21"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/llvm-ar-21"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/llvm-ar-21"
+      - "/mnt/c/Program Files/Git/cmd/llvm-ar-21"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/llvm-ar-21"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/llvm-ar-21"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/llvm-ar-21"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/llvm-ar-21"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar-21"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/llvm-ar-21"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar-21"
+      - "/snap/bin/llvm-ar-21"
+      - "/usr/lib/llvm-21/bin/llvm-ar21"
+      - "/usr/bin/llvm-ar21"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar21"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar21"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/llvm-ar21"
+      - "/usr/local/sbin/llvm-ar21"
+      - "/usr/local/bin/llvm-ar21"
+      - "/usr/sbin/llvm-ar21"
+      - "/sbin/llvm-ar21"
+      - "/bin/llvm-ar21"
+      - "/usr/games/llvm-ar21"
+      - "/usr/local/games/llvm-ar21"
+      - "/usr/lib/wsl/lib/llvm-ar21"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar21"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/llvm-ar21"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/llvm-ar21"
+      - "/mnt/c/Windows/system32/llvm-ar21"
+      - "/mnt/c/Windows/llvm-ar21"
+      - "/mnt/c/Windows/System32/Wbem/llvm-ar21"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/llvm-ar21"
+      - "/mnt/c/Windows/System32/OpenSSH/llvm-ar21"
+      - "/mnt/c/WINDOWS/system32/llvm-ar21"
+      - "/mnt/c/WINDOWS/llvm-ar21"
+      - "/mnt/c/WINDOWS/System32/Wbem/llvm-ar21"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/llvm-ar21"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/llvm-ar21"
+      - "/mnt/c/Program Files (x86)/dotnet/llvm-ar21"
+      - "/mnt/c/Program Files/dotnet/llvm-ar21"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/llvm-ar21"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/llvm-ar21"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/llvm-ar21"
+      - "/mnt/c/Program Files/Git/cmd/llvm-ar21"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/llvm-ar21"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/llvm-ar21"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/llvm-ar21"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/llvm-ar21"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar21"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/llvm-ar21"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar21"
+      - "/snap/bin/llvm-ar21"
+      - "/usr/lib/llvm-21/bin/llvm-ar"
+      - "/usr/bin/llvm-ar"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/llvm-ar"
+      - "/usr/local/sbin/llvm-ar"
+      - "/usr/local/bin/llvm-ar"
+      - "/usr/sbin/llvm-ar"
+      - "/sbin/llvm-ar"
+      - "/bin/llvm-ar"
+      - "/usr/games/llvm-ar"
+      - "/usr/local/games/llvm-ar"
+      - "/usr/lib/wsl/lib/llvm-ar"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ar"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/llvm-ar"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/llvm-ar"
+      - "/mnt/c/Windows/system32/llvm-ar"
+      - "/mnt/c/Windows/llvm-ar"
+      - "/mnt/c/Windows/System32/Wbem/llvm-ar"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/llvm-ar"
+      - "/mnt/c/Windows/System32/OpenSSH/llvm-ar"
+      - "/mnt/c/WINDOWS/system32/llvm-ar"
+      - "/mnt/c/WINDOWS/llvm-ar"
+      - "/mnt/c/WINDOWS/System32/Wbem/llvm-ar"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/llvm-ar"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/llvm-ar"
+      - "/mnt/c/Program Files (x86)/dotnet/llvm-ar"
+      - "/mnt/c/Program Files/dotnet/llvm-ar"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/llvm-ar"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/llvm-ar"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/llvm-ar"
+      - "/mnt/c/Program Files/Git/cmd/llvm-ar"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/llvm-ar"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/llvm-ar"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/llvm-ar"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/llvm-ar"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ar"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/llvm-ar"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar"
+      - "/snap/bin/llvm-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/usr/lib/llvm-21/bin/"
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/lib/llvm-21/bin/llvm-ranlib-21.1"
+      - "/usr/bin/llvm-ranlib-21.1"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-21.1"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.1"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/llvm-ranlib-21.1"
+      - "/usr/local/sbin/llvm-ranlib-21.1"
+      - "/usr/local/bin/llvm-ranlib-21.1"
+      - "/usr/sbin/llvm-ranlib-21.1"
+      - "/sbin/llvm-ranlib-21.1"
+      - "/bin/llvm-ranlib-21.1"
+      - "/usr/games/llvm-ranlib-21.1"
+      - "/usr/local/games/llvm-ranlib-21.1"
+      - "/usr/lib/wsl/lib/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/llvm-ranlib-21.1"
+      - "/mnt/c/Windows/system32/llvm-ranlib-21.1"
+      - "/mnt/c/Windows/llvm-ranlib-21.1"
+      - "/mnt/c/Windows/System32/Wbem/llvm-ranlib-21.1"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.1"
+      - "/mnt/c/Windows/System32/OpenSSH/llvm-ranlib-21.1"
+      - "/mnt/c/WINDOWS/system32/llvm-ranlib-21.1"
+      - "/mnt/c/WINDOWS/llvm-ranlib-21.1"
+      - "/mnt/c/WINDOWS/System32/Wbem/llvm-ranlib-21.1"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.1"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files (x86)/dotnet/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files/dotnet/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files/Git/cmd/llvm-ranlib-21.1"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/llvm-ranlib-21.1"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.1"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib-21.1"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/llvm-ranlib-21.1"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib-21.1"
+      - "/snap/bin/llvm-ranlib-21.1"
+      - "/usr/lib/llvm-21/bin/llvm-ranlib-21"
+      - "/usr/bin/llvm-ranlib-21"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-21"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/llvm-ranlib-21"
+      - "/usr/local/sbin/llvm-ranlib-21"
+      - "/usr/local/bin/llvm-ranlib-21"
+      - "/usr/sbin/llvm-ranlib-21"
+      - "/sbin/llvm-ranlib-21"
+      - "/bin/llvm-ranlib-21"
+      - "/usr/games/llvm-ranlib-21"
+      - "/usr/local/games/llvm-ranlib-21"
+      - "/usr/lib/wsl/lib/llvm-ranlib-21"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib-21"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/llvm-ranlib-21"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/llvm-ranlib-21"
+      - "/mnt/c/Windows/system32/llvm-ranlib-21"
+      - "/mnt/c/Windows/llvm-ranlib-21"
+      - "/mnt/c/Windows/System32/Wbem/llvm-ranlib-21"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21"
+      - "/mnt/c/Windows/System32/OpenSSH/llvm-ranlib-21"
+      - "/mnt/c/WINDOWS/system32/llvm-ranlib-21"
+      - "/mnt/c/WINDOWS/llvm-ranlib-21"
+      - "/mnt/c/WINDOWS/System32/Wbem/llvm-ranlib-21"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/llvm-ranlib-21"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/llvm-ranlib-21"
+      - "/mnt/c/Program Files (x86)/dotnet/llvm-ranlib-21"
+      - "/mnt/c/Program Files/dotnet/llvm-ranlib-21"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/llvm-ranlib-21"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/llvm-ranlib-21"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/llvm-ranlib-21"
+      - "/mnt/c/Program Files/Git/cmd/llvm-ranlib-21"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/llvm-ranlib-21"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/llvm-ranlib-21"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib-21"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/llvm-ranlib-21"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib-21"
+      - "/snap/bin/llvm-ranlib-21"
+      - "/usr/lib/llvm-21/bin/llvm-ranlib21"
+      - "/usr/bin/llvm-ranlib21"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib21"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib21"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/llvm-ranlib21"
+      - "/usr/local/sbin/llvm-ranlib21"
+      - "/usr/local/bin/llvm-ranlib21"
+      - "/usr/sbin/llvm-ranlib21"
+      - "/sbin/llvm-ranlib21"
+      - "/bin/llvm-ranlib21"
+      - "/usr/games/llvm-ranlib21"
+      - "/usr/local/games/llvm-ranlib21"
+      - "/usr/lib/wsl/lib/llvm-ranlib21"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib21"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/llvm-ranlib21"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/llvm-ranlib21"
+      - "/mnt/c/Windows/system32/llvm-ranlib21"
+      - "/mnt/c/Windows/llvm-ranlib21"
+      - "/mnt/c/Windows/System32/Wbem/llvm-ranlib21"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib21"
+      - "/mnt/c/Windows/System32/OpenSSH/llvm-ranlib21"
+      - "/mnt/c/WINDOWS/system32/llvm-ranlib21"
+      - "/mnt/c/WINDOWS/llvm-ranlib21"
+      - "/mnt/c/WINDOWS/System32/Wbem/llvm-ranlib21"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/llvm-ranlib21"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/llvm-ranlib21"
+      - "/mnt/c/Program Files (x86)/dotnet/llvm-ranlib21"
+      - "/mnt/c/Program Files/dotnet/llvm-ranlib21"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/llvm-ranlib21"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/llvm-ranlib21"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/llvm-ranlib21"
+      - "/mnt/c/Program Files/Git/cmd/llvm-ranlib21"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/llvm-ranlib21"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/llvm-ranlib21"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/llvm-ranlib21"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/llvm-ranlib21"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib21"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/llvm-ranlib21"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib21"
+      - "/snap/bin/llvm-ranlib21"
+      - "/usr/lib/llvm-21/bin/llvm-ranlib"
+      - "/usr/bin/llvm-ranlib"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/llvm-ranlib"
+      - "/usr/local/sbin/llvm-ranlib"
+      - "/usr/local/bin/llvm-ranlib"
+      - "/usr/sbin/llvm-ranlib"
+      - "/sbin/llvm-ranlib"
+      - "/bin/llvm-ranlib"
+      - "/usr/games/llvm-ranlib"
+      - "/usr/local/games/llvm-ranlib"
+      - "/usr/lib/wsl/lib/llvm-ranlib"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/llvm-ranlib"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/llvm-ranlib"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/llvm-ranlib"
+      - "/mnt/c/Windows/system32/llvm-ranlib"
+      - "/mnt/c/Windows/llvm-ranlib"
+      - "/mnt/c/Windows/System32/Wbem/llvm-ranlib"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib"
+      - "/mnt/c/Windows/System32/OpenSSH/llvm-ranlib"
+      - "/mnt/c/WINDOWS/system32/llvm-ranlib"
+      - "/mnt/c/WINDOWS/llvm-ranlib"
+      - "/mnt/c/WINDOWS/System32/Wbem/llvm-ranlib"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/llvm-ranlib"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/llvm-ranlib"
+      - "/mnt/c/Program Files (x86)/dotnet/llvm-ranlib"
+      - "/mnt/c/Program Files/dotnet/llvm-ranlib"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/llvm-ranlib"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/llvm-ranlib"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/llvm-ranlib"
+      - "/mnt/c/Program Files/Git/cmd/llvm-ranlib"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/llvm-ranlib"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/llvm-ranlib"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/llvm-ranlib"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/llvm-ranlib"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/llvm-ranlib"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/llvm-ranlib"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib"
+      - "/snap/bin/llvm-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/usr/lib/llvm-21/bin/"
+      - "/usr/bin/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/"
+      - "/mnt/c/Windows/system32/"
+      - "/mnt/c/Windows/"
+      - "/mnt/c/Windows/System32/Wbem/"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/Windows/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/lib/llvm-21/bin/clang-scan-deps-21.1"
+      - "/usr/bin/clang-scan-deps-21.1"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-21.1"
+      - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.1"
+      - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli/clang-scan-deps-21.1"
+      - "/usr/local/sbin/clang-scan-deps-21.1"
+      - "/usr/local/bin/clang-scan-deps-21.1"
+      - "/usr/sbin/clang-scan-deps-21.1"
+      - "/sbin/clang-scan-deps-21.1"
+      - "/bin/clang-scan-deps-21.1"
+      - "/usr/games/clang-scan-deps-21.1"
+      - "/usr/local/games/clang-scan-deps-21.1"
+      - "/usr/lib/wsl/lib/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files/Razer Chroma SDK/bin/clang-scan-deps-21.1"
+      - "/mnt/c/Windows/system32/clang-scan-deps-21.1"
+      - "/mnt/c/Windows/clang-scan-deps-21.1"
+      - "/mnt/c/Windows/System32/Wbem/clang-scan-deps-21.1"
+      - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.1"
+      - "/mnt/c/Windows/System32/OpenSSH/clang-scan-deps-21.1"
+      - "/mnt/c/WINDOWS/system32/clang-scan-deps-21.1"
+      - "/mnt/c/WINDOWS/clang-scan-deps-21.1"
+      - "/mnt/c/WINDOWS/System32/Wbem/clang-scan-deps-21.1"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.1"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files (x86)/dotnet/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files/dotnet/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files/Git/cmd/clang-scan-deps-21.1"
+      - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin/clang-scan-deps-21.1"
+      - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.1"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang-scan-deps-21.1"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/clang-scan-deps-21.1"
+      - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin/clang-scan-deps-21.1"
+      - "/snap/bin/clang-scan-deps-21.1"
+      - "/usr/lib/llvm-21/bin/clang-scan-deps-21"
+    found: "/usr/bin/clang-scan-deps-21"
+    search_context:
+      ENV{PATH}:
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ratib/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ratib/.vscode-server/bin/a44adf7f53e00964ab890f9f8758a334f1fc15bc/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Razer Chroma SDK/bin"
+        - "/mnt/c/Program Files/Razer Chroma SDK/bin"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Windows/System32/OpenSSH/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/dotnet/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x64"
+        - "/mnt/c/Program Files/SafeNet/Authentication/SAC/x32"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Program Files/Razer/ChromaBroadcast/bin"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/ratib/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/ratib/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/snap/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-WFmalI"
+      binary: "/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-WFmalI"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-21"
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-WFmalI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e2573/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e2573.dir/build.make CMakeFiles/cmTC_e2573.dir/build
+        gmake[1]: Entering directory '/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-WFmalI'
+        Building C object CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e2573.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e2573.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccgfkEzg.s
+        GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/15/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: edd70396dcc669433a92073f97309866
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e2573.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o /tmp/ccgfkEzg.s
+        GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_e2573
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2573.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e2573' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e2573.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMCAIQ9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e2573 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 15.2.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMCAIQ9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e2573 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.46
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e2573' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e2573.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o -o cmTC_e2573
+        gmake[1]: Leaving directory '/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-WFmalI'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/15/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/15/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/15/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-WFmalI']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e2573/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e2573.dir/build.make CMakeFiles/cmTC_e2573.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-WFmalI']
+        ignore line: [Building C object CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e2573.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e2573.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccgfkEzg.s]
+        ignore line: [GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: edd70396dcc669433a92073f97309866]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e2573.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o /tmp/ccgfkEzg.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_e2573]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2573.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e2573' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e2573.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMCAIQ9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e2573 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccMCAIQ9.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e2573] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMCAIQ9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e2573 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e2573.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15] ==> [/usr/lib/gcc/x86_64-linux-gnu/15]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/15;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.46
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-30ZbSw"
+      binary: "/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-30ZbSw"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-21"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-30ZbSw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e1930/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e1930.dir/build.make CMakeFiles/cmTC_e1930.dir/build
+        gmake[1]: Entering directory '/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-30ZbSw'
+        Building CXX object CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Ubuntu clang version 21.1.8 (6ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-21/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-30ZbSw -v -fcoverage-compilation-dir=/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-30ZbSw -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15
+         /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15
+         /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward
+         /usr/lib/llvm-21/lib/clang/21/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_e1930
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1930.dir/link.txt --verbose=1
+        Ubuntu clang version 21.1.8 (6ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-21/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e1930 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.46
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e1930
+        gmake[1]: Leaving directory '/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-30ZbSw'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward]
+          add: [/usr/lib/llvm-21/lib/clang/21/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15] ==> [/usr/include/c++/15]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15] ==> [/usr/include/x86_64-linux-gnu/c++/15]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward] ==> [/usr/include/c++/15/backward]
+        collapse include dir [/usr/lib/llvm-21/lib/clang/21/include] ==> [/usr/lib/llvm-21/lib/clang/21/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/15;/usr/include/x86_64-linux-gnu/c++/15;/usr/include/c++/15/backward;/usr/lib/llvm-21/lib/clang/21/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-30ZbSw']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e1930/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e1930.dir/build.make CMakeFiles/cmTC_e1930.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-30ZbSw']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Ubuntu clang version 21.1.8 (6ubuntu1)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-21/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-30ZbSw -v -fcoverage-compilation-dir=/home/ratib/itmo/project/build/CMakeFiles/CMakeScratch/TryCompile-30ZbSw -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward]
+        ignore line: [ /usr/lib/llvm-21/lib/clang/21/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_e1930]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1930.dir/link.txt --verbose=1]
+        ignore line: [Ubuntu clang version 21.1.8 (6ubuntu1)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-21/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e1930 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e1930] ==> ignore
+          arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_e1930.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15] ==> [/usr/lib/gcc/x86_64-linux-gnu/15]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/15;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.46
+...
