@@ -1,2 +1,3 @@
+/home/ratib/itmo/project/build/CMakeFiles/HelloWorld.dir
 /home/ratib/itmo/project/build/CMakeFiles/edit_cache.dir
 /home/ratib/itmo/project/build/CMakeFiles/rebuild_cache.dir

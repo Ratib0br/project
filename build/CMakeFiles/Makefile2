@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /home/ratib/itmo/project/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/HelloWorld.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen:
+codegen: CMakeFiles/HelloWorld.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,8 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean:
+clean: CMakeFiles/HelloWorld.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/HelloWorld.dir
+
+# All Build rule for target.
+CMakeFiles/HelloWorld.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ratib/itmo/project/build/CMakeFiles --progress-num=1,2 "Built target HelloWorld"
+.PHONY : CMakeFiles/HelloWorld.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HelloWorld.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ratib/itmo/project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/HelloWorld.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ratib/itmo/project/build/CMakeFiles 0
+.PHONY : CMakeFiles/HelloWorld.dir/rule
+
+# Convenience name for target.
+HelloWorld: CMakeFiles/HelloWorld.dir/rule
+.PHONY : HelloWorld
+
+# codegen rule for target.
+CMakeFiles/HelloWorld.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ratib/itmo/project/build/CMakeFiles --progress-num=1,2 "Finished codegen for target HelloWorld"
+.PHONY : CMakeFiles/HelloWorld.dir/codegen
+
+# clean rule for target.
+CMakeFiles/HelloWorld.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/clean
+.PHONY : CMakeFiles/HelloWorld.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
